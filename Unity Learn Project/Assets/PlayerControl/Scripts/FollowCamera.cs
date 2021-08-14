@@ -5,7 +5,7 @@ using UnityEngine;
 public class FollowCamera : MonoBehaviour
 {
     public GameObject vehicle;
-    [SerializeField] private Vector3 cameraOffset = new Vector3(0, 7, -12);
+    [SerializeField] private Vector3 cameraOffset = new Vector3(0, 7, -14);
     void Start()
     {
         
